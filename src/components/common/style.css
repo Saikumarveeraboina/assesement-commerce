@@ -1,0 +1,32 @@
+.navbar{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+.nav-item{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-footer{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000000;
+    text-align: center;
+    color: #ffff;
+    margin-top: 60vh;
+}
+.contact-info{
+    margin: 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
