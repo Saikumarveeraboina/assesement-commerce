@@ -12,12 +12,12 @@ const Login = () => {
     const userPass = "123";
     const adminPass = "admin123";
 
-    if (email === "user@gmail.com" && password === userPass) {
+    if ( password === userPass) {
       localStorage.setItem("role", "user");
       localStorage.setItem("email", email);
       navigate("/user");
     }
-    else if (email === "admin@gmail.com" && password === adminPass) {
+    else if ( password === adminPass) {
       localStorage.setItem("role", "admin");
       localStorage.setItem("email", email);
       navigate("/vendor");
