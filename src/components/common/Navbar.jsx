@@ -20,7 +20,6 @@ export default function Navbar() {
         <Link to="/cart" className="nav-item">Cart</Link>
       )}
 
-      {/* ✅ ONLY USER SEES CHECKOUT */}
       {user?.role === "user" && (
         <Link to="/checkout" className="nav-item">Checkout</Link>
       )}
